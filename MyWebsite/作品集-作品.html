@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YU-Chien</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="作品集style.css">
+
+<style>
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px;
+    
+}
+
+
+.w{
+background-color: rgb(255, 255, 255);
+width: 330px;
+height: 420px;
+border-radius: 20px;
+margin: 0px 0 100px 0;
+}
+
+
+
+
+.box{
+    width: 324px;
+    height: 324px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 3px 3px;
+}
+
+
+
+.work h1{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 20px 0 0 ;
+    
+}    
+
+
+.work h2{
+    color: #686868;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 15px 0 ;
+}  
+
+
+.i-1 input{
+    width: 700px;
+    margin: -10px 0 0 0;
+}
+
+
+.i-2 input{
+    width: 350px;
+}
+
+.i-3 input{
+    width: 330px;
+    margin-top: -30px;
+}
+
+.i-4 input{
+    width: 330px;
+    
+}
+
+
+.i-5 input{
+   height: 330px;
+    margin-left: -90px;
+}
+
+.i-6 input{
+   height: 330px;
+    margin-left: -40px;
+}
+
+.i-7 input{
+    height: 330px;
+    margin-left: -10px;
+}
+
+
+.i-8 input{
+    height: 330px;
+    margin-left:-50px 
+}
+
+
+.i-9 input{
+    height: 330px;
+    margin-left:-80px 
+}
+
+
+
+dialog{
+  width: 90%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 2px 6px #ccc;
+  border-radius: 10px;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.277);
+}
+
+
+button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(233, 150, 122);
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 1000px 0px 0;
+}
+
+.girls{
+    width: 400px;
+    margin: 25px;
+    
+}
+
+#Gtime{
+    width: 300px;
+    margin-bottom: 440px;
+    
+}
+
+#GTP{
+    width: 410px;
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    position: relative;
+    top: -420px;
+    left: 920px;
+}
+
+#GTP2{
+    width: 410px;
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    position: relative;
+    top: -420px;
+    left: 920px;
+    margin-top: 30px;
+}
+
+.girls2{
+width: 620px;
+margin: 25px;
+position: relative;
+}
+
+.girls3{
+   
+    height: 600px;
+}
+
+
+.yoga{
+
+    width: 550px;
+    margin: 25px;
+}
+
+
+.yogap{
+
+    width: 650px;
+    height: 80px;
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 25px;
+}
+
+
+.ybox1{
+    height: 820px;
+    display: flex;
+    
+}
+
+
+.ybox2{
+    height: 750px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ybox3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+.ypic{
+width: 310px;
+height: 310px;
+overflow: hidden;
+margin:  10px 25px;
+
+}
+
+#yoga1-1{
+    width: 310px;   
+    margin-top:-80px;
+}
+
+
+#yoga1-2{
+    width: 310px;    
+}
+
+#yoga1-3{
+    width: 310px;   
+
+}
+
+#yoga1-4{
+    width: 310px;  
+    margin-top: -20px;
+}
+
+
+
+#yoga2-1{
+    height: 310px;   
+    
+}
+
+
+#yoga2-2{
+    width: 310px;    
+    margin-top: -20px;
+}
+
+#yoga2-3{
+    width: 310px;   
+
+}
+
+#yoga2-4{
+    width: 310px;  
+    margin-top: -100px;
+}
+
+
+#cup{
+    width: 1300px;
+    margin: 25px;
+}
+
+#bunny{
+    width: 1300px;
+    margin: 25px;
+}
+
+.bunnyp{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 25px;
+    width: 50%;
+}
+
+
+#bunnyh1{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    margin: 25px;
+}
+
+
+#bunny2{
+    width: 45%;
+}
+
+
+.bunny{
+    display: flex;
+}
+
+.bunny3{
+    width: 620px;
+    margin: 25px;
+}
+
+
+
+#Mushroom{
+    width: 1300px;
+    margin: 25px;
+}
+
+
+.Mushroom3{
+    width: 620px;
+    margin: 25px;
+}
+
+#Mushroom2{
+   height: 450px;
+   margin-left: 30px;
+}
+
+#Metalworkingall{
+    width: 1300px;
+    margin: 25px;
+}
+
+.Metalp{
+
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 25px;
+    width: 50%;
+}
+
+
+#Metalh1{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    margin: 25px;  
+}
+
+
+#fish{
+    width: 50%;
+    margin: 25px;
+}
+
+
+#metalbox1{
+    display: flex;
+}
+
+
+.metal1{
+    width: 500px;
+    margin: 25px;
+}
+
+.metal2{
+    width: 300px;
+    margin: 25px;
+}
+
+.metal3{
+    width: 397px;
+    margin: 25px;
+    
+}
+
+
+.metalbox2{
+    display: flex;
+}
+
+.metalp2{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 25px;
+    width: 50%;
+    margin: auto;
+    width: 400px;
+}
+
+#reindeer{
+    width: 1300px;
+    margin: 25px;
+}
+
+#reindeerh1{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    margin: 25px;
+}
+
+.reindeerp{
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin: 0 25px;
+    
+}
+
+
+#reindeera{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    background-color: rgb(233, 150, 122);
+    width: 270px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 25px;
+}
+
+.reindeerbox1{
+    display: flex;
+}
+
+.reindeerimg{
+    width: 397px;
+    margin: 25px;
+}
+
+
+
+#ktall{
+    width: 1300px;
+    margin: 25px; 
+}
+
+
+.ktalljpg{
+    width: 620px;
+    margin: 25px;
+}
+
+.pagenb{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+
+
+.page{
+    width: 30px;
+    display: flex;
+    position: relative;
+    top: -150px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.page a{
+    margin-top: 2px;
+}
+
+
+.w1300px{
+    width: 1300px;
+    margin: 25px;
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+ 
+    
+    <div class="Hbackground">
+        <header>
+            
+          <div class="logo">
+                <img src="導出/YU Chien3.png" alt="logo">
+          </div>  
+            
+        </header>
+            
+        <div class="menu">
+        
+            <li>
+            
+              <a href="作品集.html"><img src="導出/组件 -5.png" alt="Information"></a>
+            
+              <a href="作品集-自傳.html"><img src="導出/组件 -4.png" alt="Autobiography"></a>
+              
+              <a href="作品集-作品.html"><img src="導出/组件 -3.png" alt="Portfolio"></a>
+              
+              <a href="作品集-技能.html"><img src="導出/组件 -2.png" alt="Skills"></a>
+              
+              <a href="作品集-證照.html"><img src="導出/组件 -1.png" alt="Certification"></a>
+    
+              <a href="作品集-阿吉.html"><img src="導出/组件 2 – 1.png" alt="cat"></a>
+            
+            </li>
+            
+            
+            
+        </div>
+   
+    
+        <div class="work">
+
+
+
+
+
+
+
+          
+
+
+            <div class="w">
+
+               <div  class="box">
+                  <div class="i-1">
+                      
+                    <input class="InputBtn" id="i-1" type="image" src="導出/MEET 展版.png" alt="MEET">
+                    
+                  </div>
+               </div>   
+             
+                <h1>MEET</h1>
+                <h2>-APP設計-</h2>
+    
+            </div> 
+          
+          
+
+
+
+
+
+
+
+            <div class="w">
+
+                <div class="box">
+                   <div class="i-2">
+                     
+                    <input class="InputBtn" id="i-2" type="image" src="導出/作品_210322.jpg" alt="好時代">
+                    
+                   </div>
+                </div>   
+              
+                 <h1>好時代</h1>
+                 <h2>-雜誌編排-</h2>
+     
+           </div> 
+
+
+           <div class="w">
+
+               <div class="box">
+                   <div class="i-3">
+                      
+                    <input class="InputBtn" id="i-3" type="image" src="導出/靜.jpg" alt="海報">
+                    
+                   </div>
+               </div>   
+          
+               <h1>YOGA</h1>
+                <h2>-影像合成海報-</h2>
+ 
+           </div> 
+
+
+            <div class="w">
+
+                <div class="box">
+                <div class="i-4">
+
+                    <input class="InputBtn" id="i-4" type="image" src="導出/A3彩色-社畜海報_page-0001.jpg" alt="社畜日常">
+                   
+                </div>
+                </div>   
+       
+                <h1>社畜日常</h1>
+                <h2>-3D設計-</h2>
+            </div> 
+
+            <div class="w">
+
+                <div class="box">
+                <div class="i-5">
+
+                    <input class="InputBtn" id="i-5" type="image" src="導出/兔子.jpg" alt="兔子">
+                   
+                </div>
+                </div>   
+       
+               <h1>Curious Bunny</h1>
+                <h2>-3D設計-</h2>
+
+            </div> 
+
+            <div class="w">
+
+                <div class="box">
+                   <div class="i-6">
+
+                    <input class="InputBtn" id="i-6" type="image" src="導出/蘑菇.jpg" alt="蘑菇">
+                   
+                   </div>
+                </div>   
+       
+                <h1>Mushroom Lamp</h1>
+                <h2>-3D設計-</h2>
+
+            </div> 
+
+            <div class="w">
+
+                <div class="box">
+                   <div class="i-7">
+
+                    <input class="InputBtn" id="i-7" type="image" src="導出/魚項鍊.jpg" alt="metalworking">
+                   
+                   </div>
+                </div>   
+       
+                <h1>Metalworking</h1>
+                <h2>-金工設計-</h2>
+
+            </div> 
+
+            <div class="w">
+
+                <div class="box">
+                   <div class="i-8">
+
+                    <input class="InputBtn" id="i-8" type="image" src="導出/LINE_ALBUM_愛麗絲系列_220504_1.jpg" alt="REINDEER">
+                   
+                   </div>
+                </div>   
+       
+                <h1>REINDEER</h1>
+                <h2>-金工設計-</h2>
+
+            </div> 
+
+            <div class="w">
+
+                <div class="box">
+                   <div class="i-9">
+
+                    <input class="InputBtn" id="i-9" type="image" src="導出/Asia 12th-1068.png" alt="縷行">
+                   
+                   </div>
+            
+                </div>   
+       
+              <h1>縷行</h1>
+              <h2>-金工設計-</h2>
+
+            </div> 
+
+
+
+        </div>
+
+       
+       
+        <div class="page">
+          <p class="pagenb">1</p>
+          <a href="作品集-作品-2.html"><img src="導出/下一頁.png" alt="下一頁"></a>
+        </div>
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    </div>
+    
+    <dialog id="infoModal">
+        
+        <button id="close">X</button>
+
+      <div class="inner">  
+        
+        <img class="worksitem" src="導出/MEET 展版.png" alt="MEET1">
+
+        <img class="worksitem" src="導出/MEET 展版-2.png" alt="MEET2">
+    
+        <img class="worksitem" src="導出/MEET.png" alt="MEET3">
+
+        <img class="worksitem" src="導出/MEET2.png" alt="MEET4">
+
+        <img class="worksitem" src="導出/MEET14.png" alt="MEET5">
+
+        <img class="worksitem" src="導出/MEET3.png" alt="MEET6">
+
+        <img class="worksitem" src="導出/MEET4.png" alt="MEET7">
+
+        <img class="worksitem" src="導出/MEET10.png" alt="MEET8">
+
+        <img class="worksitem" src="導出/MEET9.png" alt="MEET9">
+
+        <img class="worksitem" src="導出/MEET5.png" alt="MEET10">
+
+        <img class="worksitem" src="導出/MEET6.png" alt="MEET11">
+
+        <img class="worksitem" src="導出/MEET7.png" alt="MEET12">
+
+        <img class="worksitem" src="導出/MEET8.png" alt="MEET13">
+
+        <img class="worksitem" src="導出/MEET11.png" alt="MEET14">
+
+      </div>
+       
+
+    </dialog>   
+    
+  
+
+    
+    
+<Script src="作品集js.js"></Script>    
+    
+    
+    
+    
+    
+    
+    
+            
+    
+    
+    
+    <div class="contact">
+    
+        <div class="text">
+        <h1>
+        CONTACT
+        </h1>
+        
+        <p>
+        0978667867<br>
+        tina724511@gmail.com<br>
+        台中市霧峰區柳豐六街52號5樓D室   
+        </p>
+        </div>
+        
+        
+        <div class="top">
+        
+            <img src="導出/多边形 3.png" alt="三角形">    
+            <a href="#" class="back-to-top">TOP</a>
+            <img src="導出/多边形 3.png" alt="三角形">
+            </div>
+              
+        
+        
+        <div class="box1">
+        
+            <a href="https://line.me/ti/p/npWOjpAXvO"><img src="導出/line.png" alt="line"></a>
+        <a href="https://www.facebook.com/profile.php?id=100008114972683"><img src="導出/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/yu_chien0403/"><img src="導出/instagram.png" alt="instagram"></a>
+        
+        </div>
+        
+        
+        
+        
+        
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
