@@ -83,10 +83,10 @@ else if(cur_id == "i-3"){
 else if(cur_id == "i-4"){
     inner.innerHTML = `
 
-    <img class="w1300px" src="導出/車.jpg" alt="車車">
-    <img class="w1300px" src="導出/車爆炸圖.jpg" alt="車車">
-    <img class="w1300px" src="導出/水泥車.jpg" alt="水泥車">
-    <img class="w1300px" src="導出/水泥車爆炸.jpg" alt="水泥車爆炸">
+    <img class="w1300px" src="導出/車1.jpg" alt="車車">
+    <img class="w1300px" src="導出/車爆炸圖1.jpg" alt="車車">
+    <img class="w1300px" src="導出/水泥車1.jpg" alt="水泥車">
+    <img class="w1300px" src="導出/水泥車爆炸1.jpg" alt="水泥車爆炸">
 
 
 `;}
